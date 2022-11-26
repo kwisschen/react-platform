@@ -21,7 +21,7 @@ const Dashboard = () => {
     <Box m="20px">
       {/* HEADER */}
       <Box display="flex" justifyContent="space-between" alignItems="center">
-        <Header title="Dashboard" subtitle="Welcome back!" />
+        <Header title="數位管理平台" subtitle="歡迎回來" />
 
         <Box>
           <Button
@@ -34,7 +34,7 @@ const Dashboard = () => {
             }}
           >
             <DownloadOutlinedIcon sx={{ mr: "10px" }} />
-            Download Reports
+            下載報表
           </Button>
         </Box>
       </Box>
@@ -55,10 +55,10 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="12,361"
-            subtitle="Emails Sent"
-            progress="0.75"
-            increase="+14%"
+            title="55"
+            subtitle="案件總和"
+            progress="0.9"
+            increase="+12%"
             icon={
               <EmailIcon
                 sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
@@ -74,10 +74,10 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="431,225"
-            subtitle="Sales Obtained"
-            progress="0.50"
-            increase="+21%"
+            title="90"
+            subtitle="績效總和"
+            progress="0.8"
+            increase="5%"
             icon={
               <PointOfSaleIcon
                 sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
@@ -93,10 +93,10 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="32,441"
-            subtitle="New Clients"
-            progress="0.30"
-            increase="+5%"
+            title="5"
+            subtitle="新客戶"
+            progress="1.0"
+            increase="+33%"
             icon={
               <PersonAddIcon
                 sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
@@ -112,10 +112,10 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="1,325,134"
-            subtitle="Traffic Received"
-            progress="0.80"
-            increase="+43%"
+            title="32,123"
+            subtitle="網站流量"
+            progress="0.9"
+            increase="+21%"
             icon={
               <TrafficIcon
                 sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
