@@ -80,7 +80,7 @@ const Sidebar = () => {
                 ml="15px"
               >
                 <Typography variant="h3" color={colors.grey[100]}>
-                  Admin
+                  聯誠國際國外組
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
@@ -107,10 +107,10 @@ const Sidebar = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Chris
+                  Chris Chen
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                  國外部
+                  國外組-副理
                 </Typography>
               </Box>
             </Box>
@@ -189,7 +189,7 @@ const Sidebar = () => {
               圖表數據
             </Typography>
             <Item
-              title="案件數量"
+              title="案件分析"
               to="/bar"
               icon={<BarChartOutlinedIcon />}
               selected={selected}

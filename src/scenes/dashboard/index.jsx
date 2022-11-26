@@ -96,7 +96,7 @@ const Dashboard = () => {
             title="5"
             subtitle="新客戶"
             progress="1.0"
-            increase="+33%"
+            increase="+25%"
             icon={
               <PersonAddIcon
                 sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
@@ -143,14 +143,14 @@ const Dashboard = () => {
                 fontWeight="600"
                 color={colors.grey[100]}
               >
-                Revenue Generated
+                案件品質
               </Typography>
               <Typography
                 variant="h3"
                 fontWeight="bold"
                 color={colors.greenAccent[500]}
               >
-                $59,342.32
+                穩定度有待加強
               </Typography>
             </Box>
             <Box>
@@ -180,7 +180,7 @@ const Dashboard = () => {
             p="15px"
           >
             <Typography color={colors.grey[100]} variant="h5" fontWeight="600">
-              Recent Transactions
+              近期收支
             </Typography>
           </Box>
           {mockTransactions.map((transaction, i) => (
@@ -206,7 +206,7 @@ const Dashboard = () => {
               </Box>
               <Box color={colors.grey[100]}>{transaction.date}</Box>
               <Box
-                backgroundColor={colors.greenAccent[500]}
+                backgroundColor={transaction.cost >= "0" ? colors.greenAccent[600] : colors.redAccent[500]}
                 p="5px 10px"
                 borderRadius="4px"
               >
@@ -224,7 +224,7 @@ const Dashboard = () => {
           p="30px"
         >
           <Typography variant="h5" fontWeight="600">
-            Campaign
+            年度營業額目標
           </Typography>
           <Box
             display="flex"
@@ -238,7 +238,7 @@ const Dashboard = () => {
               color={colors.greenAccent[500]}
               sx={{ mt: "15px" }}
             >
-              $48,352 revenue generated
+              距離目標尚餘$880,000
             </Typography>
             <Typography>Includes extra misc expenditures and costs</Typography>
           </Box>
@@ -253,7 +253,7 @@ const Dashboard = () => {
             fontWeight="600"
             sx={{ padding: "30px 30px 0 30px" }}
           >
-            Sales Quantity
+            案件分析
           </Typography>
           <Box height="250px" mt="-20px">
             <BarChart isDashboard={true} />
@@ -270,7 +270,7 @@ const Dashboard = () => {
             fontWeight="600"
             sx={{ marginBottom: "15px" }}
           >
-            Geography Based Traffic
+            國外案件分佈
           </Typography>
           <Box height="200px">
             <GeographyChart isDashboard={true} />
