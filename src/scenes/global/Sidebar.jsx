@@ -160,7 +160,7 @@ const Sidebar = () => {
               流程管理
             </Typography>
             <Item
-              title="收支紀錄"
+              title="收支單據"
               to="/invoices"
               icon={<ReceiptOutlinedIcon />}
               selected={selected}
