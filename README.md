@@ -23,3 +23,19 @@ Under the Data Charts heading is first a Bar Chart page illustrating yearly case
 
 Looking to use this app at my company to facilitate business management.
 
+In my **components** folder I imported and used code from their respective libraries.
+
+In my **data** folder I used sets of mock data, consolidating all of the data for the team members, the business contacts, the invoices, the bar chart, the donut chart, and the line chart, in one file, and mock geographical features into another.
+
+In my **scenes** folder I divided the web application into different scenes (i.e., pages) to be shown to the user, and wrote an index.jsx file for each scene, with the topbar and sidebar that are always present being included in the global folder. 
+
+In my **App.js** file I imported all the files from the ***scenes*** directory, as well as respective routes for appropriate pathing.
+
+In my **theme.js** file I implemented **two themes: a _light mode_ and a _dark mode_**, with the default being set to dark.
+
+The React element that I used most was probably the *Box element*, which I found to be very convenient as it allows you to add CSS properties on the fly.
+
+The most challenging aspect was probably familiarizing myself with all the different libraries that I used for this project. There seems to always be a quirk there and a discrepancy there that you have to spend time sorting out. Spent the most time trying to get fullcalendar to render properly with the free version, and will continue working on that issue.
+
+
+
