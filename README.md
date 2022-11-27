@@ -20,3 +20,5 @@ Under the Flow Control heading is first an Invoice page where the user can view 
 
 Under the Data Charts heading is first a Bar Chart page illustrating yearly cases from different engineering fields. The Pie Chart page displays the proportions of cases that are delayed by different degrees, as well as those that were delivered on time. The Quality Tracking page tracks the quality of cases that are written in three different languages, being English, Japanese, and Other, respectively. Finally, the Country Distribution page allows the user to keep track of case density for different countries, which may help them determine where to focus more effort. These charts are all implemented using Nivo Charts.
 
+Looking to use this app at my company to facilitate business management.
+
