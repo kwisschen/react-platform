@@ -63,7 +63,7 @@ const LineChart = ({ isCustomLineColors = false, isDashboard = false }) => {
         tickPadding: 5,
         tickRotation: 0,
         legend: isDashboard ? undefined : "譯者", // added
-        legendOffset: 36,
+        legendOffset: 40,
         legendPosition: "middle",
       }}
       axisLeft={{
