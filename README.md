@@ -1,9 +1,5 @@
 # Business Platform
-pages
 #### Video Demo:  <https://youtu.be/dU2SZpLG0MA>
-=======
-#### Video Demo:  <URL HERE>
-main
 #### Description:
 Web application written in JavaScript using React with the following libraries:
 - Material UI
@@ -13,6 +9,7 @@ Web application written in JavaScript using React with the following libraries:
 - Yup
 - FullCalendar
 
+Homepage:
 This project has a Homepage displaying a dashboard which provides a user with a clear and comprehensive view of business data using data grids, some of which are imported from the sidebar pages.
 
 Sidebar pages:
